@@ -1,0 +1,22 @@
+{
+  "name": "random-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "sandbox": "ampx sandbox",
+    "deploy": "ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1081.0",
+    "@aws-sdk/lib-dynamodb": "^3.1081.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.23.0",
+    "@aws-amplify/backend-cli": "^1.8.3",
+    "@types/aws-lambda": "^8.10.162",
+    "@types/node": "^22.19.21",
+    "aws-cdk-lib": "^2.261.0",
+    "constructs": "^10.6.0",
+    "typescript": "^6.0.3"
+  }
+}

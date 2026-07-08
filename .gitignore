@@ -1,0 +1,6 @@
+node_modules/
+.amplify/
+cdk.out/
+*.log
+.DS_Store
+amplify_outputs.json
